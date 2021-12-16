@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm giá trị trong mảng</title>
+</head>
+<body>
+<script>
+    let numbers = [-3, 5, 1, 3, 2, 10];
+    let value = prompt("Enter a number: ");
+    let kiemTra = false ;
+    for (let i = 0; i < numbers.length; i++) {
+        if (value == numbers[i]) {
+         kiemTra = true ;
+        }
+    }
+    if (kiemTra == true) {
+        alert("Giá trị cần tìm có trong mảng")
+    } else {
+        alert("Giá trị cần tìm không có trong mảng")
+    }
+</script>
+</body>
+</html>
